@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SRC Hall</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { background: #f4f6f9; color: #222; }
+    header {
+      background: #1e3a8a; color: white; padding: 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 24px; }
+    header p { font-size: 14px; opacity: 0.9; margin-top: 4px; }
+    nav {
+      display: flex; flex-wrap: wrap; justify-content: center;
+      background: #fff; border-bottom: 1px solid #ddd;
+    }
+    nav a {
+      padding: 12px 16px; text-decoration: none; color: #1e3a8a;
+      font-size: 14px; font-weight: bold;
+    }
+    nav a:hover { background: #eef2ff; }
+    main { padding: 20px; max-width: 800px; margin: auto; }
+    .card {
+      background: white; border-radius: 10px; padding: 16px;
+      margin-bottom: 14px; box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .card h2 { color: #1e3a8a; font-size: 18px; margin-bottom: 8px; }
+    .card p { font-size: 14px; line-height: 1.5; }
+    footer {
+      text-align: center; padding: 20px; font-size: 12px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SRC Hall</h1>
+    <p>Welcome to our hall community</p>
+  </header>
+
+  <nav>
+    <a href="#management">Management</a>
+    <a href="#workers">Workers</a>
+    <a href="#complaints">Complaints</a>
+    <a href="#chat">Chat</a>
+    <a href="#announcements">Announcements</a>
+  </nav>
+
+  <main>
+    <div class="card" id="announcements">
+      <h2>📢 Announcements</h2>
+      <p>No announcements yet. Check back soon!</p>
+    </div>
+
+    <div class="card" id="management">
+      <h2>👥 Hall Management</h2>
+      <p>Meet the executives running SRC Hall.</p>
+    </div>
+
+    <div class="card" id="workers">
+      <h2>🧹 Hall Workers</h2>
+      <p>Our dedicated staff members.</p>
+    </div>
+
+    <div class="card" id="complaints">
+      <h2>📝 Lodge a Complaint</h2>
+      <p>Report an issue in the hall.</p>
+    </div>
+
+    <div class="card" id="chat">
+      <h2>💬 Hall Chat</h2>
+      <p>Chat with other residents.</p>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 SRC Hall. All rights reserved.
+  </footer>
+</body>
+</html>
